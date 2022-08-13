@@ -1,0 +1,28 @@
+# The URL the site will be built for
+base_url = "https://zapzordx.vercel.app/"
+minify_html = true
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+title = "Zapzord X"
+
+[markdown]
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "agola-dark"
+
+[extra]
+# Put all your custom variables here
+
+links = [
+    { title = "blog", href = "/blog" },
+    { title = "poem", href = "/poem" },
+    { title = "matrix", href = "//matrix.to/#/@zapzordx:matrix.org" },
+    { title = "github", href = "//github.com/zapzord-x" },
+    { title = "about", href = "/about" },
+]
